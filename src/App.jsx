@@ -14,6 +14,8 @@ import Galeri from "./pages/Galeri";
 import GaleriAdmin from "./pages/admin/GaleriAdmin";
 import ReviewAdmin from "./pages/admin/ReviewAdmin";
 import BookingAdmin from "./pages/admin/BookingAdmin";
+import Login from "./pages/admin/Login";
+import Register from "./pages/admin/Register";
 
 function App() {
   return (
@@ -28,6 +30,9 @@ function App() {
         <Route path="/galeri-admin" element={<GaleriAdmin/>}/>
         <Route path="/reviews-admin" element={<ReviewAdmin/>}/>
         <Route path="/history-booking" element={<BookingAdmin/>}/>
+        <Route path="/admin/login" element={<Login/>}/>
+        <Route path="/admin/register" element={<Register/>}/>
+
 
 
         <Route path="/booking-form" element={<BookingForm/>} />
